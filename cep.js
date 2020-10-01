@@ -35,6 +35,7 @@ $(document).ready(function() {
                         // $("#cidade").val(dados.localidade);
                         // $("#uf").val(dados.uf);
                         // $("#ibge").val(dados.ibge);
+                        $( "#id_address_number" ).focus();
                     } //end if.
                     else {
                         //CEP pesquisado não foi encontrado.
